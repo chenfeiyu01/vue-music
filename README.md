@@ -5,17 +5,15 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装所需依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 服务将会在localhost:8080打开
 npm run dev
 
-# build for production with minification
-npm run build
+# 构建暂不可用
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+缺少查看歌曲列表功能，缺少收藏功能。
+已知BUG：歌曲获取失败进度条不会停止。歌词会串词。
